@@ -1,5 +1,6 @@
 package com.example.holdmykotlin
 
+import android.content.Intent
 import android.os.Bundle
 //import android.window.OnBackInvokedDispatcher
 //import androidx.activity.OnBackPressedCallback
@@ -23,6 +24,15 @@ class AccountActivity : AppCompatActivity() {
         setupBottomNavigationBar(
             context = this,
             bottomNavigationView =  binding.bottomNavigationView)
+
+        binding.loginButton.setOnClickListener{
+            val intent = Intent(this, LoginActivity::class.java)
+            startActivity(intent)
+        }
+        binding.buttonRegister.setOnClickListener{
+            val intent = Intent(this, RegisterActivity::class.java)
+            startActivity(intent)
+        }
 
     }
 }

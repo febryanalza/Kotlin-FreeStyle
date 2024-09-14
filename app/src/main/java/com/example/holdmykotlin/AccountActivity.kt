@@ -1,16 +1,16 @@
 package com.example.holdmykotlin
 
 import android.os.Bundle
-import android.window.OnBackInvokedDispatcher
-import androidx.activity.OnBackPressedCallback
-import androidx.activity.enableEdgeToEdge
+//import android.window.OnBackInvokedDispatcher
+//import androidx.activity.OnBackPressedCallback
+//import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
+//import androidx.core.view.ViewCompat
+//import androidx.core.view.WindowInsetsCompat
 import com.example.holdmykotlin.databinding.ActivityAccountBinding
-import com.example.holdmykotlin.databinding.ActivitySearchBinding
+//import com.example.holdmykotlin.databinding.ActivitySearchBinding
 import com.example.holdmykotlin.utils.setupBottomNavigationBar
-import com.google.android.material.bottomnavigation.BottomNavigationView
+//import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class AccountActivity : AppCompatActivity() {
     private lateinit var binding: ActivityAccountBinding

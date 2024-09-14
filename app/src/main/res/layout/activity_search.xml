@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/hitam2"
-    tools:context=".HomeActivity">
+    tools:context=".SearchActivity">
     <FrameLayout
         android:id="@+id/frameHomePage"
         android:layout_width="match_parent"
